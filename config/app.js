@@ -1,6 +1,6 @@
 module.exports = {
     port : 3000,
     cluster : {
-        enable : false
+        enable : true
     }
 }
