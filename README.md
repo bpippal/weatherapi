@@ -11,7 +11,18 @@ Config's -
 Default cluster enabled to run multiple worker's
 By default the server runs on port 3000, if another service is being run on 3000, port number can be changed in the config/app.js -> port
 
-Postman Collection export - 
+
+Deployed on -><br>
+https://comet-marred-chestnut.glitch.me/
+
+Sample curl -<br>
+curl --location 'https://comet-marred-chestnut.glitch.me/cities' \
+--header 'Content-Type: application/json' \
+--data '{
+    "cities" : ["Hubli"]
+}'
+
+Postman Collection export - <br>
 {
 	"info": {
 		"_postman_id": "d988e04d-d379-4543-acea-602f236e9fa5",
